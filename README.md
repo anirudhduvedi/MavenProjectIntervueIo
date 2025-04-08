@@ -99,4 +99,27 @@ project-root/
 - TestNG
 - ChromeDriver
 
+
+▶️ Execution Instructions
+
+You can run your tests using:
+
+Option 1: From the IDE
+Right-click on the Login_test class and select Run.
+
+Make sure Login_test is listed in your testng.xml or your Maven pom.xml has the correct configuration for TestNG.
+
+✅ Test Flow Summary
+
+
+launch() – Opens the website and hovers over menu elements.
+
+
+login() – Logs in using company login via new tab.
+
+
+search() – Enters and searches for a keyword from properties file.
+
+logout() – Logs out and closes the browser session.
+
 ---
